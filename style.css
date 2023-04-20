@@ -20,12 +20,20 @@ body {
   color: green;
 }
 
-.pageViews{
+.rows{
   display: flex;
-  margin: 20px;
+  margin: 20px auto;
   align-items: center;
 }
 
+.box{
+  display: flex;
+  background-color: aqua;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+}
 
 
 .attribution {
