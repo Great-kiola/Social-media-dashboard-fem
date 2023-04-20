@@ -22,17 +22,27 @@ body {
 
 .rows{
   display: flex;
-  margin: 20px auto;
   align-items: center;
+  margin-top: 20px;
 }
+
 
 .box{
   display: flex;
   background-color: aqua;
   width: 300px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
   padding: 40px;
+}
+
+.box2{
+  background-color: antiquewhite;
+  width: 200px;
+  padding: 30px;
+  border-radius: 7px;
+  border-top: 5px solid #000;
+  margin: auto 15px;
 }
 
 
