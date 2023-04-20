@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/Great-kiola/Social-media-dashboard-fem)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL.](https://github.com/Great-kiola/Social-media-dashboard-fem)
+- Live Site URL: [Live site URL.](https://your-live-site-url.com)
 
 ### Built with
 
