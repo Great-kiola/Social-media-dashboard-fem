@@ -12,6 +12,15 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.down{
+  color: red;
+}
+
+.up{
+  color: green;
+}
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
