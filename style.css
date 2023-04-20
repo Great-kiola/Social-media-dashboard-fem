@@ -20,6 +20,13 @@ body {
   color: green;
 }
 
+.pageViews{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+
 
 .attribution {
   font-size: 11px;
