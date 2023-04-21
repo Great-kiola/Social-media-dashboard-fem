@@ -34,6 +34,7 @@ body {
   border-radius: 10px;
   margin: 5px;
   padding: 40px;
+  cursor: pointer;
 }
 
 .box2{
@@ -43,8 +44,12 @@ body {
   border-radius: 7px;
   border-top: 5px solid #000;
   margin: auto 15px;
+  cursor: pointer;
 }
 
+.box2:hover{
+  background-color: #000;
+}
 
 .attribution {
   font-size: 11px;
