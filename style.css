@@ -10,6 +10,16 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
+  background-color: var(--Background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--White);
+}
+
+main{
+  margin: 20px;
 }
 
 .down{
@@ -29,22 +39,24 @@ body {
 
 .box{
   display: flex;
-  background-color: aqua;
+  background-color: var(--CardBG);
   width: 300px;
   border-radius: 10px;
   margin: 5px;
   padding: 40px;
   cursor: pointer;
+  color: var(--White);
 }
 
 .box2{
-  background-color: antiquewhite;
-  width: 200px;
+  background-color: var(--CardBG);
+  width: 100%;
   padding: 30px;
   border-radius: 7px;
   border-top: 5px solid #000;
-  margin: auto 15px;
+  margin: 0px 15px;
   cursor: pointer;
+  color: var(--White);
 }
 
 .box2:hover{
@@ -57,4 +69,13 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+:root{
+  /* Dark Theme */
+  --Background: hsl(230, 17%, 14%);
+  --TopBGPattern: hsl(232, 19%, 15%);
+  --CardBG: hsl(228, 28%, 20%);
+  --Text: hsl(228, 34%, 66%);
+  --White: hsl(0, 0%, 100%);
 }
