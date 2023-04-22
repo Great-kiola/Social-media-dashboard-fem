@@ -18,6 +18,17 @@ body {
   color: var(--White);
 }
 
+h1 {
+  font-size: 1.3rem;
+}
+
+.topLayer .mediaDash .title p{
+  font-size: .9rem;
+  color: var(--Text);
+  opacity: 70%;
+  font-weight: 600;
+}
+
 main{
   margin: 20px;
 }
@@ -125,7 +136,7 @@ main{
   --Background: hsl(230, 17%, 14%);
   --TopBGPattern: hsl(232, 19%, 15%);
   --CardBG: hsl(228, 28%, 20%);
-  --Text: hsl(228, 34%, 66%);
+  --Text: hsl(228, 42%, 72%);
   --White: hsl(0, 0%, 100%);
   --Facebook: hsl(208, 92%, 53%);
   --Twitter: hsl(203, 89%, 53%);
