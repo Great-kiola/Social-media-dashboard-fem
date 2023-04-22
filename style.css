@@ -109,7 +109,7 @@ main{
 }
 
 .box2:hover{
-  background-color: #000;
+  background-color: hsla(230, 18%, 62%, 0.272);
 }
 
 .attribution {
