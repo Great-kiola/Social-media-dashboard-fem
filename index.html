@@ -22,7 +22,7 @@
   
   
         <div class="toggleBar">
-          <button class="toggle">Dark Mode</button>
+          <label id="toggle"></label>
         </div>
       </div>
   
@@ -35,7 +35,7 @@
           <h1 class="count">1987</h1>
           <p class="followers">Followers</p>
           <p class="increase up">
-            <img src="./images/icon-up.svg" alt="arrow up" />12 Today
+            <img class="arrow" src="./images/icon-up.svg" alt="arrow up" />12 Today
           </p>
         </div>
   
@@ -46,7 +46,7 @@
           <h1 class="count">1044</h1>
           <p class="followers">Followers</p>
           <p class="increase up">
-            <img src="./images/icon-up.svg" alt="arrow up" /> 99 Today
+            <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 99 Today
           </p>
         </div>
   
@@ -58,7 +58,7 @@
           <h1 class="count">11k</h1>
           <p class="followers">Followers</p>
           <p class="increase up">
-            <img src="./images/icon-up.svg" alt="arrow up" /> 1099 Today
+            <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 1099 Today
           </p>
         </div>
   
@@ -70,7 +70,7 @@
           <h1 class="count">8239</h1>
           <p class="followers">Subscribers</p>
           <p class="increase down">
-            <img src="./images/icon-down.svg" alt="arrow down" /> 144 Today
+            <img class="arrow" src="./images/icon-down.svg" alt="arrow down" /> 144 Today
           </p>
         </div>
       </div>
@@ -84,17 +84,17 @@
       <div class="rows">
 
         <div class="box">
-          <div class="views">
-            <h2>Page Views</h2>
-            <img src="./images/icon-facebook.svg" alt="facebook icons" />
-          </div>
-
-          <div class="viewNumber">
-            <h1 class="viewNo">87</h1>
-            <p class="viewsCount">
-              <img src="./images/icon-up.svg" alt="arrow up" /> 3%
-            </p>
-          </div>
+            <div class="views">
+              <h2>Page Views</h2>
+              <img src="./images/icon-facebook.svg" alt="facebook icons" />
+            </div>
+  
+            <div class="viewNumber">
+              <h1 class="viewNo">87</h1>
+              <p class="viewsCount up">
+                <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 3%
+              </p>
+            </div>
         </div>
 
         <div class="box">
@@ -107,7 +107,7 @@
           <div class="viewNumber">
             <h1 class="viewNo">52</h1>
             <p class="viewsCount down">
-              <img src="./images/icon-down.svg" alt="arrow down" /> 2%
+              <img class="arrow" src="./images/icon-down.svg" alt="arrow down" /> 2%
             </p>
           </div>
         </div>
@@ -121,7 +121,7 @@
           <div class="viewNumber">
             <h1 class="viewNo">5462</h1>
             <p class="viewsCount up">
-              <img src="./images/icon-up.svg" alt="arrow up" /> 2257%
+              <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 2257%
             </p>
           </div>
         </div>
@@ -135,7 +135,7 @@
           <div class="viewNumber">
             <h1 class="viewNo">52k</h1>
             <p class="viewsCount up">
-              <img src="./images/icon-up.svg" alt="arrow up" /> 1375%
+              <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 1375%
             </p>
           </div>
         </div>
@@ -147,13 +147,13 @@
         <div class="box">
           <div class="views">
             <h2>Retweets</h2>
-            <img src="./images/icon-twitter.svg" alt="twitter icons" />
+            <img class="arrow" src="./images/icon-twitter.svg" alt="twitter icons" />
           </div>
 
           <div class="viewNumber">
             <h1 class="viewNo">117</h1>
             <p class="viewsCount up">
-              <img src="./images/icon-up.svg" alt="arrow up" /> 303%
+              <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 303%
             </p>
           </div>
 
@@ -169,7 +169,7 @@
           <div class="viewNumber">
             <h1 class="viewNo">507</h1>
             <p class="viewsCount up">
-              <img src="./images/icon-up.svg" alt="arrow up" /> 553%
+              <img class="arrow" src="./images/icon-up.svg" alt="arrow up" /> 553%
             </p>
           </div>
         </div>
@@ -184,7 +184,7 @@
           <div class="viewNumber">
             <h1 class="viewNo">107</h1>
             <p class="viewsCount down">
-              <img src="./images/icon-down.svg" alt="arrow down" /> 19%
+              <img class="arrow" src="./images/icon-down.svg" alt="arrow down" /> 19%
             </p>
           </div>
         </div>
@@ -192,13 +192,13 @@
         <div class="box">
           <div class="views">
             <h2>Total Views</h2>
-            <img src="./images/icon-youtube.svg" alt="youtube icons" />
+            <img  src="./images/icon-youtube.svg" alt="youtube icons" />
           </div>
 
           <div class="viewNumber">
             <h1 class="viewNo">1407</h1>
             <p class="viewsCount down">
-              <img src="./images/icon-down.svg" alt="arrow down" /> 12%
+              <img class="arrow" src="./images/icon-down.svg" alt="arrow down" /> 12%
             </p>
           </div>
         </div>
@@ -212,7 +212,11 @@
     Challenge by
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
     <a href="https://www.frontendmentor.io/profile/Great-kiola">Kilaso Olabode</a>
-    </footer>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+
 </body>
 
 </html>

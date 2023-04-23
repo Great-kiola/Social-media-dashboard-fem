@@ -19,8 +19,15 @@ body {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
+
+h2{
+  font-size: 1rem;
+  color: var(--Text);
+  opacity: 70%;
+}
+
 
 .topLayer .mediaDash .title p{
   font-size: .9rem;
@@ -46,12 +53,28 @@ main{
 .box2:nth-child(4){
   margin-right: 0px;
 }
+
 .down{
-  color: red;
+  color: var(--BrightRed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .up{
-  color: green;
+  color: var(--LimeGreen);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.arrow{
+  margin-right: 5px;
+}
+
+.increase{
+  font-size: 200rem;
 }
 
 .rows{
@@ -60,20 +83,20 @@ main{
   margin-top: 20px;
 }
 
-
 .box{
-  display: flex;
   background-color: var(--CardBG);
   width: 300px;
   border-radius: 10px;
   margin-right: 10px;
-  padding: 40px;
+  padding: 35px 30px;
   cursor: pointer;
   color: var(--White);
+  flex-direction: column;
 }
 
 .count{
-  font-size: 2.8rem;
+  font-size: 3.8rem;
+  font-weight: 700;
 }
 
 .box2{
@@ -92,7 +115,6 @@ main{
 }
 
 .instagram{
-  /* border-image: 5px solid linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%)); */
   border-width: 5px;
   border-style: solid;
   border-bottom: 0px;
@@ -121,6 +143,20 @@ main{
   background-color: hsla(230, 18%, 62%, 0.272);
 }
 
+
+.views{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.viewNumber{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -129,6 +165,60 @@ main{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.toggleBar {
+  position: relative;
+
+}
+label{
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  border-radius: 20px;
+  right: 4px;
+  background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+label:before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 3px;
+  top: 5px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #000;
+  cursor: pointer;
+  transition: 0.4s;
+}
+label.active:before{
+  border: 2px solid #fff !important;
+  left: 40px;
+  background: #fff;
+}
+
+
+/* Light Mode */
+p.lightMode {
+  color: #000;
+  opacity: 0;
+}
+.lightMode{
+  background-color: var(--WhiteBG);
+  color: #000;
+}
+.box.lightMode {
+  background-color: hsl(227, 47%, 96%);
+}
+.box2.lightMode {
+  background-color: hsl(227, 47%, 96%);
+}
+label.lightMode {
+  background-color: var(--Text);
+
+}
+
+
 
 :root{
   /* Dark Theme */
@@ -140,5 +230,10 @@ main{
   --Facebook: hsl(208, 92%, 53%);
   --Twitter: hsl(203, 89%, 53%);
   --Instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%)) ;
-  --YouTube: hsl(348, 97%, 39%)
+  --YouTube: hsl(348, 97%, 39%);
+  --LimeGreen: hsl(163, 72%, 41%);
+  --BrightRed: hsl(356, 69%, 56%);
+
+  /* Light mode */
+  --WhiteBG: hsl(0, 0%, 100%);
 }
