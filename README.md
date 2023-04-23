@@ -3,6 +3,10 @@
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Overview
+### Screenshot
+
+<img src="./images/ScreenShot.png" alt="Completed design" width="858" />
+
 ### The challenge
 
 Users should be able to:
@@ -11,9 +15,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
 
-### Screenshot
-
-<img src="./images/ScreenShot.png" alt="Completed design" width="858" />
 
 ### Links
 
