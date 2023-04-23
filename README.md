@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./images/ScreenShot.png" alt="Completed design" width="80" />
+<img src="./images/ScreenShot.png" alt="Completed design" width="858" />
 
 ### Links
 
